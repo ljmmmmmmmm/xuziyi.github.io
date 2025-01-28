@@ -3,12 +3,13 @@
 <!--partial()是个函数，来包含其他文件，使得我们能够更好的组织代码。-->
 <html>
   <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
+
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   <meta name="renderer" content="webkit">
-  <title>徐女士的专属网站</title>
+  <title>徐女士的专属网站~</title>
 
   <!-- 添加 favicon 图标 -->
   <link rel="icon" href="/image/%E6%88%91%E4%BB%AC.jpg" type="image/x-icon">
@@ -24,15 +25,48 @@
     })();
   </script>
 
-  <!-- 引入 CSS 样式 -->
+  <!-- 引入CSS样式 -->
   
 <link rel="stylesheet" href="/css/style.css">
 
+
+  <!-- 内联CSS样式，修改标题样式为居中 -->
+  <style>
+    header {
+      text-align: center; /* 水平居中 */
+      margin-top: 20px; /* 顶部间距 */
+    }
+
+    .site-title a {
+      color: #fd637d; /* 粉色 */
+      text-decoration: none; /* 去除下划线 */
+      font-size: 24px; /* 设置字体大小 */
+    }
+
+    .site-title a:hover {
+      color: #ff1493; /* 更深的粉色，悬停时效果 */
+    }
+  </style>
 <meta name="generator" content="Hexo 7.3.0"></head>
+
 <body>
-  <!-- 在页面中插入链接 -->
-  <a href="https://linjiaming.xyz" target="_blank" class="custom-link">不爱万物唯爱你</a>
+  <header>
+    <!-- 站点标题部分，点击跳转到 linjiaming.xyz -->
+    <h1 class="site-title">
+      <a href="https://linjiaming.xyz" target="_blank" rel="noopener noreferrer">
+        不爱万物唯爱你
+      </a>
+    </h1>
+  </header>
+
+  <!-- 站点其他内容部分 -->
+
+  <!-- 其他脚本 -->
+  
+<script src="/js/main.js"></script>
+
 </body>
+
 </html>
 
   <body>
